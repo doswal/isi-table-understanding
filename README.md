@@ -20,8 +20,10 @@ Namely, the following packages will need to be installed with *stated* version r
 ### PSL module, ce_model:
 - Kindly download the PSL module from [this file](https://drive.google.com/file/d/1ndVTP3WSG8OLoDjYnePvuVZ5fxXBCyRz/view?usp=sharing), and ce_models from [here](https://drive.google.com/uc?id=1DJfEgqoHzfQYBllzey21zS39ui_kwId-) 
 - Place the PSL Module, ce_model, data files under correct directories as in the below snapshot
-{Note: /tmp/ woul generate during runtime}
+{Note: /tmp/ would generate during runtime}
 
+![alt text](https://github.com/doswal/isi-table-understanding/blob/main/data%20File%20Arrangement.png)
+![alt text](https://github.com/doswal/isi-table-understanding/blob/main/tmp%20File%20Arrangement.png)
 ### Infersent module:
 - Import or copy paste the infersent module from [here](https://github.com/facebookresearch/InferSent/blob/main/models.py) in the tabular_cell_type_classification>src>helpers.py file
 
