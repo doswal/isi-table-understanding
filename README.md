@@ -1,18 +1,18 @@
 # Table Understanding
 
 ### Environment Setup
-Set up the environment by referring to [ISI's Table Understanding](http://github.com/usc-isi-i1/table-understanding/tree/impl/)
+Set up the environment by referring to [ISI's Table Understanding](http://github.com/usc-isi-i2/table-understanding/tree/impl/)
 
 Once completed, few packages need to be ungraded/downgraded for the model to run
 One approach is to do pip check for clashing, uncompatible package verions
 Namely, the following packages will need to be installed with *stated* version respectively
 
-- pyantic==1.74
-- numpy==1.22.3
+- pydantic==1.74
+- numpy==1.19.0
 - thinc==8.0.7
 - blis==0.7.11
 - spacy==3.3.1
-- scikit-learn==0.23.2 [to match pickl files of pre trained models, might need to use conda install instead of pip]
+- scikit-learn==0.23.2 [to match pickle files of pre trained models, might need to use conda install instead of pip]
 
 ### JSON/Txt File Extraction:
 - Kindly refer to the comments made in Jupyter Notebook attached, and generate the required .xlsx files
@@ -34,3 +34,11 @@ Namely, the following packages will need to be installed with *stated* version r
 
 ### Check for output:
 check for outputs under the /tmp/output/
+
+### Test & Results:
+
+As per 09/24/2024
+For the given Alabama table, accurate list of blocks i.e. variables and obervation data is obtained.
+
+For the [MD98-2177 isotopes Khider11](https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/khider2011/khider2011.txt), the table understand runs successfully. The variables annotations are correct, however, the alignment annontations and edges for observation data do not work correctly. 
+
